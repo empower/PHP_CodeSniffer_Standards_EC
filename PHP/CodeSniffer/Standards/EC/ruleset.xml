@@ -6,6 +6,7 @@
  <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
  <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
  <rule ref="Generic.PHP.DisallowShortOpenTag"/>
+ <rule ref="Generic.PHP.LowerCaseConstant"/>
  <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
  <rule ref="PEAR.Classes.ClassDeclaration"/>
  <rule ref="PEAR.ControlStructures.ControlSignature"/>

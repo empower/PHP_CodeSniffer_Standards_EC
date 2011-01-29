@@ -13,11 +13,11 @@
   <email>bshupp@empowercampaigns.com</email>
   <active>yes</active>
  </lead>
- <date>2010-09-16</date>
- <time>14:15:05</time>
+ <date>2011-01-28</date>
+ <time>17:57:59</time>
  <version>
-  <release>0.1.0</release>
-  <api>0.1.0</api>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
  </version>
  <stability>
   <release>alpha</release>
@@ -25,7 +25,7 @@
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
  <notes>
-* Initial release
+* Added LowerCaseConstant to sniff
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -75,6 +75,21 @@
    <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
    <notes>
 * Initial release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-01-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added LowerCaseConstant to sniff
    </notes>
   </release>
  </changelog>
