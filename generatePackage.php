@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ALL & ~E_DEPRECATED);
+
 require_once('PEAR/PackageFileManager2.php');
 
 PEAR::setErrorHandling(PEAR_ERROR_DIE);
@@ -11,7 +13,7 @@ $packagexml->setOptions(array(
     'simpleoutput'      => true,
     'packagedirectory'  => './',
     'filelistgenerator' => 'file',
-    'ignore'            => array('runTests.php', 'generatePackage.php'),
+    'ignore'            => array('generatePackage.php'),
     'dir_roles' => array(
         'PHP'           => 'php',
         'tests'         => 'test',
@@ -23,9 +25,9 @@ $packagexml->setPackage('PHP_CodeSniffer_Standards_EC');
 $packagexml->setSummary('Empower Campaigns coding standards implementation using PHP_CodeSniffer');
 $packagexml->setDescription('The PHP_CodeSniffer implementation of the EC coding standard');
 
-$packagexml->setChannel('pear.php.net');
-$packagexml->setAPIVersion('0.2.0');
-$packagexml->setReleaseVersion('0.2.0');
+$packagexml->setChannel('empower.github.com/pirum');
+$packagexml->setAPIVersion('0.3.0');
+$packagexml->setReleaseVersion('0.3.0');
 
 $packagexml->setReleaseStability('alpha');
 
