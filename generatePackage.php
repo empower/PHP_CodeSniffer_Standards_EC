@@ -26,14 +26,14 @@ $packagexml->setSummary('Empower Campaigns coding standards implementation using
 $packagexml->setDescription('The PHP_CodeSniffer implementation of the EC coding standard');
 
 $packagexml->setChannel('empower.github.com/pirum');
-$packagexml->setAPIVersion('0.4.0');
-$packagexml->setReleaseVersion('0.4.0');
+$packagexml->setAPIVersion('0.5.0');
+$packagexml->setReleaseVersion('0.5.0');
 
 $packagexml->setReleaseStability('alpha');
 
 $packagexml->setAPIStability('alpha');
 
-$packagexml->setNotes('* Added superfluous whitespace sniff');
+$packagexml->setNotes('* Added phpcs rule for lowercase true, false, and null to EC standard');
 $packagexml->setPackageType('php');
 $packagexml->addRelease();
 
