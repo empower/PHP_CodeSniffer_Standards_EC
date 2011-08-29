@@ -17,6 +17,7 @@
  <rule ref="Zend.Debug.CodeAnalyzer"/>
  <rule ref="Zend.Files.ClosingTag"/>
  <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
+ <rule ref="Generic.PHP.LowerCaseConstant"/>
 
  <!-- Lines can be 80 chars long, show errors at 120 chars -->
  <rule ref="Generic.Files.LineLength">
